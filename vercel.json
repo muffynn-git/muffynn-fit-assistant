@@ -2,9 +2,9 @@
   "name": "muffynn-fit-assistant",
   "version": "1.0.0",
   "description": "Zero-performance-impact Size Recommendation API for Muffynn",
-  "main": "recommend-size.js",
+  "main": "api/recommend-size.js",
   "scripts": {
-    "start": "node recommend-size.js"
+    "start": "node api/recommend-size.js"
   },
   "dependencies": {
     "google-auth-library": "^9.0.0",
