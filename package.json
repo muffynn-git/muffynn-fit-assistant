@@ -1,0 +1,17 @@
+{
+  "name": "muffynn-fit-assistant",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Deterministic AI-assisted size & fit widget for Muffynn.com, deployed on Vercel with no database and no mandatory paid infrastructure.",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "vercel dev",
+    "build:widget:size": "gzip -c public/muffynn-fit.js | wc -c"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "terser": "^5.31.0"
+  }
+}
