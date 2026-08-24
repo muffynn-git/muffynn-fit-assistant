@@ -1,7 +1,13 @@
 {
-  "functions": {
-    "api/recommend-size.js": {
-      "runtime": "nodejs20.x"
-    }
+  "name": "muffynn-fit-assistant",
+  "version": "1.0.0",
+  "description": "Zero-performance-impact Size Recommendation API for Muffynn",
+  "main": "api/recommend-size.js",
+  "scripts": {
+    "start": "node api/recommend-size.js"
+  },
+  "dependencies": {
+    "google-auth-library": "^9.0.0",
+    "google-spreadsheet": "^4.1.2"
   }
 }
